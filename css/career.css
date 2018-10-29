@@ -1,0 +1,45 @@
+.career {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    align-content: space-around;
+    height: auto;
+
+}
+
+
+.career-item {
+    border: 10px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    margin-bottom: 1em;
+    
+
+}
+
+
+.company-logo-container {
+    width: 20%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.company-logo {
+    width: 75%;
+    z-index: 10;
+    
+}
+
+ .career-desctiption {
+    width: 80%;
+    order: 1;
+
+}
