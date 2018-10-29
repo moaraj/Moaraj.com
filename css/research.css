@@ -1,23 +1,57 @@
 .research {
+    height: auto;
     width: 100%;
     background-color: yellow;
+
     display: flex;
-    flex-flow: row wrap;
-    height: 100vh;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
 .research-panel {
-    width: 50%;
     height: auto;
+    width: 50%;
     background-color: black;
     color: white;
 }
 
 .research-publications {
+    height: auto;
     width: 50%;
     background-color: white;
-    height: auto;
+
 }
+
+
+.publication-list {
+    background-color: white;
+    margin-left: 5%;
+}
+
+.publication-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.publication-number {
+    font-weight: bold;
+    font-size: 2em;
+    color: orange;
+    height: 100%;
+    width: 20%;
+}
+
+.publication-details {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
 
 .article-name {
     font-weight: bold;
