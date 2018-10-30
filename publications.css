@@ -1,0 +1,14 @@
+.publication-container {
+    width: 50%;
+    position: relative;
+}
+
+.publication-textblock {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
