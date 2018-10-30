@@ -10,6 +10,44 @@
     justify-content: space-around;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    top: 100%;
+    left: 50%;
+
+    background-color: white;
+    width: 90%;
+    transform: translate(-50%, -100%);
+}
+
+:root {
+    --mainColor: #ff9800;
+  }
+  
+  a {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  a:hover {
+    background-size: 4px 50px;
+  }
 
 .card-1 {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
