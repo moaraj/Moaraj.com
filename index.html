@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <!-- Academia Icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+
 </head>
 
 <body>
@@ -25,7 +33,7 @@
                     <h1>About</h1>
                     <p class="about-statment">I am a former early development scientist at Roche's Inflammation and Auto-Immune disease target area searching for a Ph.D. using single cell techniques to elucidate the role of immune dysfunction in the progression of neurodegenerative diseases. 
                     </p>
-
+                    <br>
                     <p class="about-statment">I have experience in processing single cell and multi-omics data from disease mechanism and target validation campaigns at Roche and molecular biology experience working with patient-derived cell lines and mouse models of chronic inflammation at Harvard Medical School. </p>
                     <p class="name">Moaraj Hasan</p>
                     <p class="salutation">Scientist in the Making</p>
@@ -38,8 +46,9 @@
                 <img src="img/publications/uranium.png" alt="uranium" style="max-height:90%">
                 <div class="centered">
                     <h3>Uranium Gas Phase Clusters</h3>
-                    <a href="">A Density Functional Theory Study of Extended Microsolvation of Uranyl Complexes. [Manuscript Submitted]</a>
-
+                    <a href="">
+                        A Density Functional Theory Study of Extended Microsolvation of Uranyl Complexes. [Manuscript Submitted]
+                    </a>
                 </div>
             </div>
 
@@ -47,7 +56,9 @@
                 <h3>Targetting Nano-Particles</h3>
                 <img src="img/publications/nanoparticle.jpg" alt="Inflammation resolving nanoparticle" style="max-height:90%">
                 <div class="centered">
-                        <a href="https://pubs.acs.org/doi/abs/10.1021/acsnano.6b01114">Targeted Interleukin-10 Nanotherapeutics Enhance Resolution of Inflammation in Advanced Atherosclerosis</a>
+                        <a class="publication-link" href="https://pubs.acs.org/doi/abs/10.1021/acsnano.6b01114">
+                            Targeted Interleukin-10 Nanotherapeutics Enhance Resolution of Inflammation in Advanced Atherosclerosis
+                        </a>
                     </div>
             </div>
 
@@ -55,24 +66,30 @@
                 <h3>BXD Mouse Multi-Omics</h3>
                 <img src="img/publications/mouse.png" alt="mouse multi omics" style="max-height:90%">
                 <div class="centered">
-                    <a href="http://www.mcponline.org/content/17/9/1766">Quantifying and Localizing the Mitochondrial Proteome Across Five Tissues in A Mouse Population</a>
+                    <a class="publication-link" href="http://www.mcponline.org/content/17/9/1766">
+                        Quantifying and Localizing the Mitochondrial Proteome Across Five Tissues in A Mouse Population
+                    </a>
                 </div>
             </div>
-
+<!-- Cannot Figure out why there text isnt center aligning -->
             <div class="card card-1">
-                <h3>Differential Mobility Spectroscopy</h3>
-                <img src="img/publications/deff-mobility2x.png" alt="differential-mobility-spectroscopy" style="max-width:90%;max-height:90%;height: auto;width:auto;">
-                <div class="centered">
-                        <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.6b00297">Assessing Physicochemical Properties of Drug Molecules via Microsolvation Measurements with Differential Mobility Spectrometry
+                    <h3>Differential Mobility Spectroscopy</h3>
+                    <img src="img/publications/differential-mobility-spectroscopy.jpeg" 
+                        alt="Differential Mobility Spectroscopy" 
+                        style="max-height:80%;max-width: 80%;">
+                    <div class="centered">
+                        <a class="publication-link" href="https://pubs.acs.org/doi/abs/10.1021/acscentsci.6b00297">
+                            Assessing Physicochemical Properties of Drug Molecules via Microsolvation Measurements with Differential Mobility Spectrometry
                         </a>
+                    </div>
                 </div>
-            </div>
 
             <div class="card card-1">
                     <h3>Meldrum Acid Derivatives</h3>
                     <img src="img/publications/meldrums-acid2x.png" alt="Meldrums Acid" style="max-width:90%;max-height:90%;height: auto;width:auto;">
                     <div class="centered">
-                            <a href="https://pubs.acs.org/doi/full/10.1021/acscentsci.6b00297">Persistent Intramolecular C–H···X (X = O or S) Hydrogen-Bonding in Benzyl Meldrum’s Acid Derivatives
+                            <a class="publication-link" href="https://pubs.acs.org/doi/full/10.1021/acscentsci.6b00297">
+                                Persistent Intramolecular C–H···X (X = O or S) Hydrogen-Bonding in Benzyl Meldrum’s Acid Derivatives
                             </a>
                     </div>
                 </div>
@@ -81,12 +98,38 @@
                         <h3>Gender Inequality</h3>
                         <img src="img/publications/nobel-lowres.png" alt="Nobel Prize" style="max-width:90%;max-height:90%;height: auto;width:auto;">
                         <div class="centered">
-                                <a href="https://arxiv.org/abs/1802.03309">Gender Disparities in Prestigous Labs. A Look into Glass Ceilings, Maternal Walls and Bottlenecks
+                                <a class="publication-link" href="https://arxiv.org/abs/1802.03309">
+                                    Gender Disparities in Prestigous Labs. A Look into Glass Ceilings, Maternal Walls and Bottlenecks
                                 </a>
                         </div>
-                    </div>
+                </div>
         </section>
+
+            <footer>
+                <div class="footer-spacer">
+                    <h3>Contact Information</h3>
+                </div>
+                
+                <div class="footer-content">
+                    <div class="contact">
+                            <h4>Questions, concerns, coffee? feel free to get in touch</h4> 
+                            <h4>Cell Phone: +1 41 76 507 26 08</h4>
+                            <h4>Email: mohasan@ethz.ch</h4>
+                            <h4>Eth Zürich</h4>               
+                            <h4>Zürich, Switzerland</h4>        
+                    </div>
+                    
+                    <div class="social-media">
+                        <a href="https://twitter.com/moaraj?lang=en"><i class="fab fa-twitter"></i></a>    
+                        <a href="https://www.instagram.com/moaraj/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=moaraj+hasan+%5Bauthor%5D"><i class="ai ai-pubmed-square "></i></a>
+                        <a href="https://scholar.google.com/citations?user=Nr8K750AAAAJ&hl=en"><i class="ai ai-google-scholar-square "></i></a>
+                    </div>
+            </div>
+        </footer>
     </main>
+
+    
 
     
 </body>

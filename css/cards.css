@@ -30,8 +30,9 @@
 :root {
     --mainColor: #ff9800;
   }
+
   
-  a {
+  .publication-link {
     background:
        linear-gradient(
          to bottom, var(--mainColor) 0%,

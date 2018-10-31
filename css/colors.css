@@ -1,9 +1,16 @@
 header {
-    background-color: red;
+    background-color: #F44336;
 }
 
+h1 {
+    color: #FFFFFF;
+}
+
+p {
+    color: #212121;
+}
 .about {
-    background-color: green;
+    background-color: #D32F2F;
 }
 
 .about-picture-box {
@@ -16,4 +23,16 @@ header {
 
 .research {
     background-color: pink;
+}
+
+.footer {
+    background-color: #BDBDBD;
+}
+
+i {
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #BDBDBD;
 }
