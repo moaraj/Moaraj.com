@@ -8,6 +8,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .card {
@@ -17,6 +20,7 @@
 }
 
 .centered {
+    font-size: 16px;
     position: absolute;
     text-align: center;
     top: 100%;
@@ -27,8 +31,13 @@
     transform: translate(-50%, -100%);
 }
 
+.centered:hover {
+  transition: font-size 0.25s; /* transition is set to 'font-size 12s' */
+  font-size: 20px;
+}
+
 :root {
-    --mainColor: #ff9800;
+    --mainColor: #ff6d6d;
   }
 
   
@@ -63,7 +72,7 @@
     .card {
         background: #fff;
         border-radius: 2px;
-        height: 200px;
+        height: 220px;
         margin: 1rem;
         position: relative;
         width: 400px;
@@ -110,13 +119,8 @@
 
 @media screen and (min-width: 900px) {
     .card {
-        background: #fff;
-        border-radius: 2px;
-        height: 300px;
-        margin: 0.5rem;
-        position: relative;
-        width: 300px;
-        margin-left: 0%;
+        height: 330;
+        width: 330px;
       }
 }
 

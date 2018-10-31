@@ -1,28 +1,41 @@
-header {
-    background-color: #F44336;
+body {
+    background-color: #d32f2f    ;
+}
+
+.header-content {
+    height: 40px;
+    background-color: #212121;
+    text-align: left;
+    padding: 10px;
+    
 }
 
 h1 {
-    color: #FFFFFF;
+    color: white;
+}
+
+h2 {
+    color: #212121;
 }
 
 p {
     color: #212121;
 }
 .about {
-    background-color: #D32F2F;
+    background-color: white;
 }
 
 .about-picture-box {
-    background-color: aqua;
+    background-color: white;
 }
 
 .about-text-box {
-    background-color: greenyellow;
+    background-color: white;
 }
 
 .research {
-    background-color: pink;
+    background-color: #f44336
+    ;
 }
 
 .footer {
@@ -30,7 +43,7 @@ p {
 }
 
 i {
-    color: #FFFFFF;
+    color: white;
 }
 
 footer {

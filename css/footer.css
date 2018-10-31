@@ -24,12 +24,14 @@ footer {
     }
 
     .contact {
-        margin-left: 10%;
+        text-align: center;
+        margin-left: 0%;
         width: 90%;
         order: 2;
     }
     .social-media {
-        margin-left: 10%;
+        text-align: center;
+        margin-left: 0%;
         width: 90%;
         order: 1;
         font-size: 50px;
@@ -38,6 +40,10 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
+    .footer-spacer {
+        margin-bottom: 20px;
+    }
+
     .footer-content {
         display: flex;
         flex-direction: row;
@@ -45,17 +51,22 @@ footer {
     }
 
     .contact {
+        text-align: left;
         margin-left: 0;
         width: 30%;
         order: 1;
     }
     .social-media {
+        text-align: right;
         width: 30%;
         order: 2;
     }
 }
 
 @media screen and (min-width: 1024px) {
+    .footer-spacer {
+        margin-bottom: 30px;
+    }
     .footer-content {
         display: flex;
         flex-direction: row;
