@@ -22,14 +22,38 @@
 <body>
     <header>
         <div class="header-content">
+            <div class="header-text">
                 <h1>Moaraj Hasan</h1>
+            </div>
+
+            <div class="header-logo">
+                <img src="img/logo/logo-1x.png"
+                    srcset='img/logo/logo-1x.png 1x,
+                    img/logo/logo-2x.png 2x
+                    img/logo/logo-3x.png 3x' 
+                    alt="moaraj logo"
+                    style="height:100%;">
+            </div>
+                
+                
         </div>
     </header>
 
     <main>
         <section class="about">
                 <div class="about-picture-box">
-                    <img class= "about-picture" src="img/about/moaraj.png" alt="moaraj simpsons" style="max-width: 450px">                    
+                    <picture>
+                        <source media='(min-width: 950px)'
+                            srcset='img/about/moaraj.png'/>
+                        <source media='(min-width: 731px)'
+                            srcset='img/about/moaraj-tall.png'/>
+                        <source media='(max-width: 730px)'
+                            srcset='img/about/moaraj.png'/>
+                        <img class= "about-picture"
+                            src="img/about/moaraj.png" 
+                            alt="moaraj simpsons" 
+                            style="max-width: 450px;max-height: 320px;height: auto; width: auto;"/>
+                    </picture>                  
                 </div>
                 <div class="about-text-box">
                     <h2>About</h2>
