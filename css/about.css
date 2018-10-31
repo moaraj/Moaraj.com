@@ -15,6 +15,11 @@
     font-style: italic;
 }
 
+.about-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media screen and (min-width: 100px) {
     .about {
@@ -41,11 +46,12 @@
 @media screen and (min-width: 450px) {
     .about {
         height: 20%;
-        width: 100%;        
+        width: 100%;
     }
 
     .about-picture {
         width: 100%;
+        align-self: center;
     }
 
     .about-text-box {
@@ -75,8 +81,15 @@
     .about-text-box {
         width: 50%;
         margin-left: 0%;
+        margin-top: 10px
     }
 
+}
+
+@media screen and (min-width: 950px) {
+    .about-text-box {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
